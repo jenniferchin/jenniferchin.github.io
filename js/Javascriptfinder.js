@@ -35,7 +35,7 @@ function insert() {
 		for (j=0;j<mentees.length;j++){
 			if (count2<=3 && (mentees[j][4]==current[4] || mentees[j][7]==current[7]){
 				compare=mentees[j][2];
-				if(service.getDistanceMatrix[current[2],mentees[j][2]]
+				if(service.getDistanceMatrix[current[2],mentees[j][2]]{
 					matches[count2]= mentees[j];
 					count2=count2+1;
 				}
@@ -49,7 +49,7 @@ function insert() {
 			if (count1<=3 && (mentors[j][4]==current[4] || mentors[j][7]==current[7]){
 				compare=mentors[j][2];
 				if(service.getDistanceMatrix[current[2],mentors[i][2]]{
-					matches[count2]= mentees[j];
+					matches[count1]= mentees[j];
 					count1=count1+1;
 				}
 			}

@@ -95,7 +95,7 @@ form {
     color: black;
     position: relative;
     width: 100%;
-    min-height: auto;
+    /*min-height: auto;
     /*text-align: center;*/
     margin-left: 200px;
     font-size: 150%;
@@ -148,6 +148,10 @@ form {
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
     background-image: url('../images/landscape.jpg');
     background-position: center;
     -webkit-background-size: cover;
@@ -155,6 +159,24 @@ form {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.explore-h2{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-color: rgb(149,208,62);
+}
+
+.explore-h3{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-color: rgb(55,49,49);   
+    color: #fff;
+}
+
 
 .mentor-list{
     padding: 10px 70px 70px;
@@ -182,6 +204,22 @@ img.resize{
   max-width:100%;
   max-height:100%;
   border-radius: 10px;
+}
+
+.profile-edit{
+    padding: 10px 70px 70px;    
+}
+
+.profile-edit .picture{
+    float:left;
+    width: 50%;
+    padding: 50px;
+}
+
+.profile-edit .bio{
+    display:inline-block;
+    padding: 50px;
+    width: 50%;
 }
 
 .section-heading {

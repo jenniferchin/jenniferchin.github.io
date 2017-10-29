@@ -70,16 +70,10 @@
         </div><!-- /.container -->
     </nav>
     
-<<<<<<< HEAD
-<header-small>
-<div class="header-content-explore"> 
-       <h1>Tell Us More About Yourself</h1>
-=======
 <div class="find-h1"> 
     <font size="13"<h1>Tell Us More About Yourself</h1></font>
->>>>>>> 3651c2a3201f803488ab42ea8e5d5f0c6e2ead8a
 </div>
-</header-small>
+
 
 <form>
     <div class="form">
@@ -95,11 +89,15 @@
         <!--<label>000 Street, City, State</label> -->
         <input id="location" name="text">
     </div><br>
-    <select id="ments">
+    <!--<select id="ments">
         <option selected disabled>Mentor or Mentee</option>
         <option value="mentor">Mentor</option>
         <option value="mentee">Mentee</option>
-    </select><br><br>
+    </select><br><br>-->
+    <div class="form">
+        <label>Mentor/Mentee</label>
+        <input id="mentor" type="text">
+    </div><br>
     <div class="form">
         <label>Career Field</label>
         <input id="field" type="text">
@@ -112,12 +110,16 @@
         <label>Email</label>
         <input id="email" type="text">
     </div><br>
-    <select>
+    <!--<select>
         <option selected disabled>What do you want help with/What can you help with?</option>
         <option value="startup">Startup advice</option>
         <option value="recruitment">Recruiting</option>
         <option value="general">General advice</option>
-    </select><br><br>
+    </select><br><br> -->
+    <div class="form">
+        <label>Interest</label>
+        <input id="interest" type="text">
+    </div><br>
     <input type="button" value="Submit" onclick="insert()"/>
 </form>
 <div id="display"></div>

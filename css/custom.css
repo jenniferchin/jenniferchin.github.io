@@ -66,6 +66,27 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
+form {
+    color: black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    /*text-align: center;*/
+    margin-left: 200px;
+    font-size: 150%;
+    padding: 50px;
+}
+
+.form label {
+    float: left;
+    width: 20%;
+}
+
+.form input {
+    display: inline-block;
+    width: 50%;
+}
+
 @media(min-width:768px) {
     header {
         min-height: 100%;

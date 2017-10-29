@@ -164,6 +164,15 @@ form {
     background-color: rgb(149,208,62);
 }
 
+.explore-h3{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-color: rgb(55,49,49);   
+    color: #fff;
+}
+
 .mentor-list{
     padding: 10px 70px 70px;
 }

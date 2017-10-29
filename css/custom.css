@@ -95,7 +95,7 @@ form {
     color: black;
     position: relative;
     width: 100%;
-    min-height: auto;
+    /*min-height: auto;
     /*text-align: center;*/
     margin-left: 200px;
     font-size: 150%;
@@ -144,11 +144,17 @@ form {
     }
 }
 .explore-h1{
+    min-height: auto;
+    color: #fff;
     position: relative;
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
-    background-image: url('../images/landscape.jpg');
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-image: url('../images/forest.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,6 +170,33 @@ form {
     background-color: rgb(149,208,62);
 }
 
+.explore-h3{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-color: rgb(55,49,49);   
+    color: #fff;
+}
+
+.find-h1{
+    min-height: auto;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-image: url('../images/starrysky.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .mentor-list{
     padding: 10px 70px 70px;
 }
@@ -210,8 +243,9 @@ img.resize{
 
 .section-heading {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
 
 .intro {
 	color: #fff;

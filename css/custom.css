@@ -150,15 +150,11 @@ form {
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
-<<<<<<< HEAD
-    background-image: url('../images/landscape.jpg');
-=======
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 300;
     background-image: url('../images/forest.jpg');
->>>>>>> 99a612f70b96dc85e0af5383659dc352bd0e9f4f
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

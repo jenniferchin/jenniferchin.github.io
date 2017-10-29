@@ -156,6 +156,14 @@ form {
     -o-background-size: cover;
 }
 
+.explore-h2{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-color: rgb(149,208,62);
+}
+
 .mentor-list{
     padding: 10px 70px 70px;
 }
@@ -182,6 +190,22 @@ img.resize{
   max-width:100%;
   max-height:100%;
   border-radius: 10px;
+}
+
+.profile-edit{
+    padding: 10px 70px 70px;    
+}
+
+.profile-edit .picture{
+    float:left;
+    width: 50%;
+    padding: 50px;
+}
+
+.profile-edit .bio{
+    display:inline-block;
+    padding: 50px;
+    width: 50%;
 }
 
 .section-heading {

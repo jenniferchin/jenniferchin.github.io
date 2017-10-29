@@ -40,8 +40,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <span class="glyphicon glyphicon-fire"></span> 
-                    LOGO
+                    <div class="imgPlaceholder"></div>
                 </a>
             </div>
             <!-- Navbar links -->
@@ -120,9 +119,25 @@
         <label>Interest</label>
         <input id="interest" type="text">
     </div><br>
-    <input type="button" value="Submit" onclick="insert()"/>
+    <!--<input type="button" value="Submit" onclick="insert()"/>-->
+
+    <!--<button id="myButton" class="submit">Submit</button>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick=insert(){
+            location.href="matches.html"
+        };
+    </script>-->
+    <!--<form action="matches.html">
+        <input type="submit" value="Submit"/>
+    </form>-->
+    <!-- first line redirects but is just a link
+    <a class="btn" href="matches.html">Submit</a>
+    <button class="btn" type="submit">Submit</button>-->
+    <form>
+        <button formaction="matches.html">Submit</button>
+    </form>
 </form>
-<div id="display"></div>
-<script src="js/Javascriptfinder.js"></script>
+<<!--div id="display"></div>
+<script src="js/Javascriptfinder.js"></script>-->
 </body>
 </html>

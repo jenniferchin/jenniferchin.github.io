@@ -143,6 +143,72 @@ form {
         font-size: 18px;
     }
 }
+
+/*.change-logo .input-group-addon{
+    position:relative;
+}
+
+.change-logo .fempower{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 5px;
+    height: 80%;
+    width: auto;
+   /*overflow:hidden;
+}
+
+.change-logo .fempower:before{
+    content:'';
+    display: block;
+    width: 20px;
+    height: 100%;
+    background: url('../images/fempowerlogo.png');
+    background-size: auto 100%;
+}
+
+.change-logo .text-upper-style{
+    position: relative;
+    margin-left: 20px;
+}*/
+
+.imgPlaceholder{
+    background: url('../images/fempowerlogo.png') no-repeat 0 0 scroll;
+    /*background-color:#0C0C0C;*/
+    background-size: 100% 100%;
+    height:30px;
+    width:30px;
+    /*float:right*/
+    
+}
+
+.imgPlaceholder picture{
+    float:left;
+    width: 10%
+}
+
+.imgPlaceholder text{
+    /*display:inline-block;*/
+    width: 50%;
+    /*margin-left: 200px;*/
+    float: left;
+}
+
+/*.imgPlaceholder2{
+    padding: 10px;
+}
+
+.imgPlaceholder2 picture{
+    float:left;
+    width:50%;
+}
+
+.imgPlaceholder2 text{
+    width 50%
+    float:right;
+}*/
+
+
 .explore-h1{
     min-height: auto;
     color: #fff;

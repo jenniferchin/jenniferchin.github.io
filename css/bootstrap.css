@@ -62,8 +62,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
-  text-align: center;
-  color:blue;
+
 }
 mark {
   color: #000;
@@ -597,7 +596,8 @@ th {
   content: "\e103";
 }
 .glyphicon-fire:before {
-  content: "\e104";
+  /*content: "\e104";*/
+  content:url('../images/fempowerlogo.png');
 }
 .glyphicon-eye-open:before {
   content: "\e105";
@@ -4226,7 +4226,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: right;
   }
 }
 .navbar-collapse {

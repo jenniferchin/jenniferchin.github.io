@@ -14,6 +14,8 @@
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -68,42 +70,42 @@
         </div><!-- /.container -->
     </nav>
     
-
-<div class="explore-h1"> 
+<header-small>
+<div class="header-content-explore"> 
        <h1>Tell Us More About Yourself</h1>
 </div>
-
+</header-small>
 
 <form>
     <div class="form">
         <label>Name</label>
-        <input type="text" name="name"> <!--<br>-->
+        <input id="name" type="text"> <!--<br>-->
     </div><br>
     <div class="form">
         <label>Age</label>
-        <input type="text" name="age">
+        <input id="age" name="text">
     </div><br>
     <div class="form">
         <label>Address</label>
         <!--<label>000 Street, City, State</label> -->
-        <input type="text" name="location">
+        <input id="location" name="text">
     </div><br>
-    <select>
+    <select id="ments">
         <option selected disabled>Mentor or Mentee</option>
         <option value="mentor">Mentor</option>
         <option value="mentee">Mentee</option>
     </select><br><br>
     <div class="form">
         <label>Career Field</label>
-        <input type="text" name="field">
+        <input id="field" type="text">
     </div><br>
     <div class="form">
         <label>LinkedIn</label>
-        <input type="text" name="linkedin">
+        <input id="linkedIn" type="text">
     </div><br>
     <div class="form">
         <label>Email</label>
-        <input type="text" name="email">
+        <input id="email" type="text">
     </div><br>
     <select>
         <option selected disabled>What do you want help with/What can you help with?</option>
@@ -111,7 +113,9 @@
         <option value="recruitment">Recruiting</option>
         <option value="general">General advice</option>
     </select><br><br>
-    <input type="submit" value="Submit">
+    <input type="button" value="Submit" onclick="insert()"/>
 </form>
+<div id="display"></div>
+<script src="js/Javascriptfinder.js"></script>
 </body>
 </html>

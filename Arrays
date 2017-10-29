@@ -1,0 +1,63 @@
+
+<script>
+async defer src="https://maps.googleapis.com/maps/api/js?key=AAIzaSyDfagwXweNt8Rd2sXlANtgbrQxgCEHQ5R4&callback=initMap"
+  type="text/javascript"
+  </script>
+
+<script>
+var compare;
+var count1 =0;
+var count2 =0;
+var locCurrent;
+var locOption;
+var mentees= new Array();
+var mentors= new Array();
+var matches= new Array();
+var current=[name,age,location,mentorOmentee,careerfield,linkedin,lookingfor];
+var geocoder1 = new google.maps.Geocoder;
+var geocoder2 = new google.maps.Geocoder;
+var service = new google.maps.DistanceMatricService();
+if (mentorOrmentee="mentee"){
+	mentee=1;
+for (i=0;i<mentors.length;i++) {
+	if(count1 <=3 && mentors[i][4]==current[4] && mentors[i][6]==current[6])
+			compare=mentors[i][2];
+		if(distanceCalculator(geocoder)){
+			count1=count1+1;
+		matches.push[mentors[j];
+}
+}
+else {
+for (j=0;j<mentees.length;j++){
+	if (count2<=3 && mentees[j][4]==current[4] && mentees[j][6]==current[6])
+		compare=mentees[j][2]
+	if(distanceCalculator(geocoder)){
+		count2=count2+1
+		matches.push[mentees[j]]
+	}
+}
+
+}
+
+ 
+
+function distanceCalculator(geocoder){
+	geocoder1.geocode({current[3] :address}, function(results,status))
+	if (status == 'OK'){
+		locCurrent= results[0].geometry.location;
+	}
+	else{
+		alert('Geocode was not successful for current');
+	}
+	geocoder2.geocode(compare:address}, function(results,status))
+	if (status=='OK'){
+		locOption=results[0].geometry.location;
+	}
+	else{
+		alert('Geocode was not successful for option')
+	}
+}
+
+}
+</script>
+

@@ -25,6 +25,17 @@ var messageBox = document.getElementById("display");
 
 var service = new google.maps.DistanceMatrixService;
 
+//examples for testing
+mentees[0]=["Sheryl Sandberg","48", "Washington, DC", "mentor","tech", "startup"];
+mentees[1]=["Susan Wojcicki","40", "Fairfax, Virginia", "mentor","business", "recruitment"];
+mentees[2]=["Melinda Gates","53", "Durham, North Carolina", "mentor","business", "startup"];
+mentees[3]=["Elissa Shevinsky","27", "Fairfax, Virginia", "mentor","business", "startup"];
+mentees[4]=["Meg Whitman","61", "Alexandria, Virginia", "mentee","tech", "recruitment"];
+mentees[5]=["Aditi Pilani","20", "Durham, North Carolina", "mentee","tech", "general advice"];
+mentees[6]=["Ginni Rometty","60", "Kernersville, NC", "mentee","tech", "startup"];
+mentees[7]=["Sherry Feng","20", "Greensboro, NC", "mentee","law", "startup"];
+mentees[8]=["Anna Cunningham","20", "Kernersville, NC", "mentee","tech", "startup"];
+mentees[9]=["Jenny Chin","20", "Kernersville, NC", "mentee","tech", "startup"];
 current.push(nameInput.value, ageInput.value, addInput.value, mentorInput.value, fieldInput.value, linkedInInput.value, emailInput.value, interestInput.value);
 
 
@@ -40,6 +51,10 @@ function insert() {
 					count2=count2+1;
 				}
 			}
+
+			else {
+				(alert("Sorry you have no matches! Please try again later"));
+			}
 		}
 	}
 	else {
@@ -52,6 +67,9 @@ function insert() {
 					matches[count1]= mentees[j];
 					count1=count1+1;
 				}
+			}
+			else {
+				(alert("Sorry you have no matches! Please try again later"));
 			}
 		}
 

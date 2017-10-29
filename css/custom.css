@@ -48,8 +48,19 @@ header .header-content-explore{
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
+
     background-image: url('../images/landscape.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+header .header-content-explore .hce-inner h1{ 
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
 
 }
 header .header-content .header-content-inner h1 {
@@ -97,7 +108,18 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
-
+.explore-h1{
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    background-image: url('../images/landscape.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;

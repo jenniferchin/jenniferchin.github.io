@@ -141,6 +141,15 @@ form {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.mentor-list{
+    padding: 10px 70px 70px;
+}
+img.resize{
+  max-width:15%;
+  max-height:15%;
+}
+
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;

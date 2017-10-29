@@ -224,12 +224,9 @@ img.resize{
 
 .section-heading {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.section-heading .github a{
-    color: #fff;
-}
 
 .intro {
 	color: #fff;
